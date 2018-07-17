@@ -19,3 +19,15 @@ test('Return empty array when not valid data.', t => {
 	t.deepEqual(uniqueObjects(), []);
 	t.deepEqual(uniqueObjects([], []), []);
 });
+
+test('Test with single key.', t => {
+	const actual = [{a: 1}, {a: 1}, {a: 2}];
+	const expected = [{a: 1}, {a: 2}];
+	t.deepEqual(uniqueObjects(actual, ['a']), expected);
+});
+
+test('Test with multiple keys.', t => {
+	const actual = [{a: 1, b: true}, {a: 1, b: true}, {a: 2, b: true}];
+	const expected = [{a: 1, b: true}, {a: 2, b: true}];
+	t.deepEqual(uniqueObjects(actual, ['a', 'b']), expected);
+});
