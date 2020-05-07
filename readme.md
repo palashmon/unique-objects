@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/unique-objects.svg)](https://www.npmjs.org/package/unique-objects)
 [![codecov](https://codecov.io/gh/palashmon/unique-objects/branch/master/graph/badge.svg)](https://codecov.io/gh/palashmon/unique-objects)
 [![Gzip Size](https://img.badgesize.io/https://unpkg.com/unique-objects?compression=gzip)](https://bundlephobia.com/result?p=unique-objects)
-[![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/unique-objects.svg)](https://greenkeeper.io/)
+
 
 Get unique objects from array of objects based on single/multiple keys.
 
