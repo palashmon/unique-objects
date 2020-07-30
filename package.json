@@ -17,7 +17,8 @@
 		"cover": "nyc --reporter=lcov ava"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"unique",
