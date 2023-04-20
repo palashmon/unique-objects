@@ -2,16 +2,12 @@ import test from 'ava';
 import uniqueObjects from './index.js';
 
 test('Return typeerror when arrayInput is not an array.', t => {
-	const error = t.throws(() => {
-		uniqueObjects(23);
-	}, TypeError);
+	const error = t.throws(() => uniqueObjects(23));
 	t.is(error.message, 'Expected an array for arrayInput, got number');
 });
 
 test('Return typeerror when keys is not an array.', t => {
-	const error = t.throws(() => {
-		uniqueObjects([], 23);
-	}, TypeError);
+	const error = t.throws(() => uniqueObjects([], 23));
 	t.is(error.message, 'Expected an array for keys, got number');
 });
 
