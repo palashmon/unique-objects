@@ -35,5 +35,8 @@
 		"nyc": "^15.0.0",
 		"xo": "^0.54.0"
 	},
-	"type": "module"
+	"type": "module",
+	"eslintIgnore": [
+		"index.d.ts"
+	]
 }
