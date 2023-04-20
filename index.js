@@ -1,16 +1,25 @@
-module.exports = (arrayInput = [], keys = []) => {
+function uniqueObjects(arrayInput = [], keys = []) {
 	if (!Array.isArray(arrayInput)) {
-		throw new TypeError(`Expected an array for arrayInput, got ${typeof arrayInput}`);
+		throw new TypeError(
+			`Expected an array for arrayInput, got ${typeof arrayInput}`,
+		);
 	}
+
 	if (!Array.isArray(keys)) {
 		throw new TypeError(`Expected an array for keys, got ${typeof keys}`);
 	}
 
-	const keyValues = arrayInput.map(value => {
-		const key = keys.map(k => value[k]).join('|');
-		return [key, value];
-	});
+	const keySet = new Set();
 
-	const kvMap = new Map(keyValues);
-	return [...kvMap.values()];
-};
+	return arrayInput.filter(object => {
+		const key = keys.map(k => object[k]).join('|');
+		const isNew = !keySet.has(key);
+		if (isNew) {
+			keySet.add(key);
+		}
+
+		return isNew;
+	});
+}
+
+export default uniqueObjects;

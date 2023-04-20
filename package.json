@@ -1,6 +1,6 @@
 {
 	"name": "unique-objects",
-	"version": "1.0.5",
+	"version": "1.1.0",
 	"description": "Get unique objects from array of objects",
 	"license": "MIT",
 	"repository": "https://github.com/palashmon/unique-objects",
@@ -14,7 +14,8 @@
 	},
 	"scripts": {
 		"test": "xo && ava",
-		"cover": "nyc --reporter=lcov ava"
+		"cover": "nyc --reporter=lcov ava",
+		"lint": "xo --fix"
 	},
 	"files": [
 		"index.js",
@@ -33,5 +34,9 @@
 		"ava": "^5.1.0",
 		"nyc": "^15.0.0",
 		"xo": "^0.54.0"
-	}
+	},
+	"type": "module",
+	"eslintIgnore": [
+		"index.d.ts"
+	]
 }

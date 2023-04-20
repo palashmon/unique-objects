@@ -1,12 +1,6 @@
-# unique-objects
+# unique-objects ![CI](https://github.com/palashmon/unique-objects/actions/workflows/main.yaml/badge.svg)
 
-[![Build Status](https://travis-ci.org/palashmon/unique-objects.svg?branch=master)](https://travis-ci.org/palashmon/unique-objects)
-[![npm](https://img.shields.io/npm/v/unique-objects.svg)](https://www.npmjs.org/package/unique-objects)
-[![codecov](https://codecov.io/gh/palashmon/unique-objects/branch/master/graph/badge.svg)](https://codecov.io/gh/palashmon/unique-objects)
-[![Gzip Size](https://img.badgesize.io/https://unpkg.com/unique-objects?compression=gzip)](https://bundlephobia.com/result?p=unique-objects)
-
-
-Get unique objects from array of objects based on single/multiple keys.
+> Get unique objects from array of objects based on single/multiple keys.
 
 ## Install
 
