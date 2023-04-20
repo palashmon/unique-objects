@@ -1,3 +1,5 @@
 declare module 'unique-objects' {
-  export default function (arrayInput: object[], keys: string[]): object[];
+	type Obj = Record<string, unknown>;
+
+	export default function (arrayInput: Obj[], keys: (keyof Obj)[]): Obj[];
 }
