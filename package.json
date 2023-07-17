@@ -33,7 +33,7 @@
 	"devDependencies": {
 		"ava": "^5.1.0",
 		"nyc": "^15.0.0",
-		"xo": "^0.54.0"
+		"xo": "^0.55.0"
 	},
 	"type": "module",
 	"eslintIgnore": [
