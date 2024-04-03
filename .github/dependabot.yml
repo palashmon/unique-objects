@@ -13,3 +13,8 @@ updates:
       # For all packages, ignore all patch updates
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
