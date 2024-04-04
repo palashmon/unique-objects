@@ -1,6 +1,6 @@
 {
 	"name": "unique-objects",
-	"version": "1.1.0",
+	"version": "1.0.6",
 	"description": "Get unique objects from array of objects",
 	"license": "MIT",
 	"repository": "https://github.com/palashmon/unique-objects",
@@ -28,7 +28,15 @@
 		"multiple",
 		"array item",
 		"keys",
-		"test"
+		"test",
+		"deduplication",
+		"distinct",
+		"filter",
+		"eliminate duplicates",
+		"javascript",
+		"data",
+		"manipulation",
+		"algorithm"
 	],
 	"devDependencies": {
 		"ava": "^6.0.1",
