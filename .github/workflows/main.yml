@@ -1,7 +1,5 @@
 name: CI
-on:
-  - push
-  - pull_request
+on: [push, pull_request]
 jobs:
   test:
     name: Node.js ${{ matrix.node-version }}
@@ -9,12 +7,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version:
-          - 20
-          - 18          
+        node-version: ['lts/*', 'current']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      - name: Setup Node.js (${{ matrix.node-version }})
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
