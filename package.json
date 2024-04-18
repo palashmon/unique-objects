@@ -10,7 +10,7 @@
 		"url": "https://github.com/palashmon"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=8.17.0"
 	},
 	"scripts": {
 		"test": "xo && ava",
