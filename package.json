@@ -9,8 +9,9 @@
 		"email": "palashm@live.in",
 		"url": "https://github.com/palashmon"
 	},
+	"sideEffects": false,
 	"engines": {
-		"node": ">=8.17.0"
+		"node": ">=18"
 	},
 	"scripts": {
 		"test": "xo && ava",
