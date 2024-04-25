@@ -1,0 +1,8 @@
+name: PR labeler
+on:
+  - pull_request_target
+jobs:
+  apply:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }} # only PRs from this repo
+    uses: palashmon/reusable-workflows/.github/workflows/labeler-reusable.yml@main
+    secrets: inherit
