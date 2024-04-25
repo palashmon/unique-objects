@@ -1,0 +1,42 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - documentation
+      - ignore-for-release
+  categories:
+    - title: Breaking Changes
+      labels:
+        - breaking
+      exclude:
+        labels:
+          - dependencies
+    - title: New Features
+      labels:
+        - enhancement
+      exclude:
+        labels:
+          - dependencies
+    - title: Bug Fixes
+      labels:
+        - bug
+      exclude:
+        labels:
+          - dependencies
+    - title: Security Patches
+      labels:
+        - security
+        - "security"
+      exclude:
+        labels:
+          - dependencies
+    - title: Dependencies
+      labels:
+        - dependencies
+    - title: Maintenance
+      labels:
+        - "*"
+      exclude:
+        labels:
+          - dependencies
