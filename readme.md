@@ -1,4 +1,4 @@
-# unique-objects ![CI](https://github.com/palashmon/unique-objects/actions/workflows/main.yaml/badge.svg)
+# unique-objects ![CI](https://github.com/palashmon/unique-objects/actions/workflows/main.yml/badge.svg)
 
 > Get unique objects from array of objects based on single/multiple keys.
 
