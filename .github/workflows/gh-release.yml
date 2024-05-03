@@ -1,0 +1,22 @@
+name: GitHub Release
+
+on:
+  schedule:
+    - cron: '30 2 * * 5' # Weekly
+  workflow_dispatch: # manual trigger
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  packages: write
+  pull-requests: write
+
+jobs:
+  call-workflow:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    uses: palashmon/reusable-workflows/.github/workflows/gh-release.yml@main
+    with:
+      branch_name: 'master'

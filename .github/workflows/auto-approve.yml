@@ -1,9 +1,0 @@
-name: Auto-approve PR
-on: pull_request_target
-permissions:
-  pull-requests: write
-jobs:
-  apply:
-    if: github.actor == 'renovate[bot]'
-    uses: palashmon/reusable-workflows/.github/workflows/auto-approve.yml@main
-    secrets: inherit
