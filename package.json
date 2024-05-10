@@ -1,51 +1,51 @@
 {
-	"name": "unique-objects",
-	"version": "1.0.6",
-	"description": "Get unique objects from array of objects",
-	"license": "MIT",
-	"repository": "https://github.com/palashmon/unique-objects",
-	"author": {
-		"name": "Palash Mondal",
-		"email": "palashm@live.in",
-		"url": "https://github.com/palashmon"
-	},
-	"sideEffects": false,
-	"engines": {
-		"node": ">=18.20.2"
-	},
-	"scripts": {
-		"test": "xo && ava",
-		"cover": "nyc --reporter=lcov ava",
-		"lint": "xo --fix"
-	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
-	"keywords": [
-		"unique",
-		"array",
-		"objects",
-		"multiple",
-		"array item",
-		"keys",
-		"test",
-		"deduplication",
-		"distinct",
-		"filter",
-		"eliminate duplicates",
-		"javascript",
-		"data",
-		"manipulation",
-		"algorithm"
-	],
-	"devDependencies": {
-		"ava": "6.1.2",
-		"nyc": "15.1.0",
-		"xo": "0.58.0"
-	},
-	"type": "module",
-	"eslintIgnore": [
-		"index.d.ts"
-	]
+  "name": "unique-objects",
+  "version": "1.1.0",
+  "description": "Get unique objects from array of objects",
+  "license": "MIT",
+  "repository": "https://github.com/palashmon/unique-objects",
+  "author": {
+    "name": "Palash Mondal",
+    "email": "palashm@live.in",
+    "url": "https://github.com/palashmon"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.20.2"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "cover": "nyc --reporter=lcov ava",
+    "lint": "xo --fix"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "unique",
+    "array",
+    "objects",
+    "multiple",
+    "array item",
+    "keys",
+    "test",
+    "deduplication",
+    "distinct",
+    "filter",
+    "eliminate duplicates",
+    "javascript",
+    "data",
+    "manipulation",
+    "algorithm"
+  ],
+  "devDependencies": {
+    "ava": "6.1.2",
+    "nyc": "15.1.0",
+    "xo": "0.58.0"
+  },
+  "type": "module",
+  "eslintIgnore": [
+    "index.d.ts"
+  ]
 }
