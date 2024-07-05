@@ -2,7 +2,7 @@ name: GitHub Release
 
 on:
   schedule:
-    - cron: '30 2 * * 5' # Weekly
+    - cron: '30 2 1 * *' # Monthly
   workflow_dispatch: # manual trigger
 
 concurrency:
