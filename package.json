@@ -1,6 +1,6 @@
 {
   "name": "unique-objects",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Get unique objects from array of objects",
   "license": "MIT",
   "repository": "https://github.com/palashmon/unique-objects",
