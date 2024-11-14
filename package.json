@@ -11,7 +11,7 @@
   },
   "sideEffects": false,
   "engines": {
-    "node": ">=18.20.4"
+    "node": ">=18.20.5"
   },
   "scripts": {
     "test": "xo && ava",
