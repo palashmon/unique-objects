@@ -42,7 +42,7 @@
   "devDependencies": {
     "ava": "6.2.0",
     "nyc": "15.1.0",
-    "xo": "0.59.3"
+    "xo": "0.60.0"
   },
   "type": "module",
   "eslintIgnore": [
