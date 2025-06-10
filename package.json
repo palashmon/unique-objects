@@ -40,7 +40,7 @@
     "algorithm"
   ],
   "devDependencies": {
-    "ava": "6.3.0",
+    "ava": "6.4.0",
     "nyc": "15.1.0",
     "xo": "0.61.1"
   },
