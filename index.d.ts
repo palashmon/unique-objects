@@ -1,5 +1,5 @@
 declare module 'unique-objects' {
-	type Obj = Record<string, unknown>;
+	type Object_ = Record<string, unknown>;
 
-	export default function (arrayInput: Obj[], keys: (keyof Obj)[]): Obj[];
+	export default function (arrayInput: Object_[], keys: Array<keyof Object_>): Object_[];
 }
