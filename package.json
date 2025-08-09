@@ -45,7 +45,9 @@
     "xo": "0.61.1"
   },
   "type": "module",
-  "eslintIgnore": [
-    "index.d.ts"
-  ]
+  "xo": {
+    "ignores": [
+      "*.d.ts"
+    ]
+  }
 }

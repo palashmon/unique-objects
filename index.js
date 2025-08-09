@@ -1,8 +1,6 @@
 function uniqueObjects(arrayInput = [], keys = []) {
 	if (!Array.isArray(arrayInput)) {
-		throw new TypeError(
-			`Expected an array for arrayInput, got ${typeof arrayInput}`,
-		);
+		throw new TypeError(`Expected an array for arrayInput, got ${typeof arrayInput}`);
 	}
 
 	if (!Array.isArray(keys)) {
