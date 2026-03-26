@@ -14,4 +14,4 @@ concurrency:
 
 jobs:
   test:
-    uses: palashmon/reusable-workflows/.github/workflows/main-build.yml@main
+    uses: palashmon/reusable-workflows/.github/workflows/main-build.yml@d30c1aaaceab5c7d3f95551c051afce367c2aeba # main
