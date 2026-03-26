@@ -17,6 +17,6 @@ permissions:
 jobs:
   call-workflow:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-    uses: palashmon/reusable-workflows/.github/workflows/gh-release.yml@main
+    uses: palashmon/reusable-workflows/.github/workflows/gh-release.yml@d30c1aaaceab5c7d3f95551c051afce367c2aeba # main
     with:
       branch_name: 'master'

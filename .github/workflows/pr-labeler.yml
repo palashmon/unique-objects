@@ -4,5 +4,5 @@ on:
 jobs:
   apply:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }} # only PRs from this repo
-    uses: palashmon/reusable-workflows/.github/workflows/labeler-reusable.yml@main
+    uses: palashmon/reusable-workflows/.github/workflows/labeler-reusable.yml@d30c1aaaceab5c7d3f95551c051afce367c2aeba # main
     secrets: inherit

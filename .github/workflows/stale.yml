@@ -7,5 +7,5 @@ permissions:
   pull-requests: write
 jobs:
   apply:
-    uses: palashmon/reusable-workflows/.github/workflows/stale.yml@main
+    uses: palashmon/reusable-workflows/.github/workflows/stale.yml@d30c1aaaceab5c7d3f95551c051afce367c2aeba # main
     secrets: inherit
